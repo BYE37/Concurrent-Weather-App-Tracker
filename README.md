@@ -5,7 +5,7 @@
 This project is built with HTML/CSS/Javascript.
 
 <h2>Author:</h2>
-Brandon Ye
+Brandon Ye<br>
 bye4242@gmail.com
 
   
