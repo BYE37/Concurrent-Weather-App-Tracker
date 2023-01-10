@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("https://source.unsplash.com/random/1600x900");
+    
+}
+
+.card {
+    background-color: #ccccccbb;
+    border-radius: 30px;
+    height: 100%;
+    max-height: 305px;
+    width: 100%;
+    max-width: 290px;
+    padding: 27.5px;
+}
+
+.search{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar{
+    border-radius: 20px;
+    border-color: black;
+    padding: 0.8em 1.2em;
+    margin-left: 0.5em;
+    width: 70%;
+    border: none;
+}
+
+.search-icon{
+    margin: 0.5em;
+    border-radius: 5px;
+    border-color: black;
+    border: none;
+    display: flex;
+}
+
+.search-icon:hover{
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.temp{
+    font-size: 30px;
+}
+
+.weather{
+    margin-left: 0.5em;
+}
+
+
+.weather-stat{
+    font-size: 17.5px;
+}
+
+/*creates loading element
+*/
+.weather.loading-info{
+    visibility: hidden;
+    padding-top: 20px;
+}
+
+.weather.loading-info::before{
+    visibility: visible;
+    content: "loading content...";
+    font-size: 20px;
+}
+
+.error{
+    visibility: hidden;
+}
+
+.error-message{
+    visibility: visible;
+}
+input:focus::placeholder {
+    color: transparent;
+  }
+
+input[type=text] {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12.5px;
+}
