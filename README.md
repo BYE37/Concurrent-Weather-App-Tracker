@@ -4,7 +4,7 @@
 <h2>Built With:</h2>
 This project is built with HTML/CSS/Javascript.
 
-<h2>Author</h2>
+<h2>Author:</h2>
 Brandon Ye
 bye4242@gmail.com
 
